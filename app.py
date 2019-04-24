@@ -1,3 +1,4 @@
+import os
 from flask import Flask, g
 from flask import render_template, flash, redirect, url_for, request, get_flashed_messages
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
@@ -213,6 +214,10 @@ def search():
 
     return render_template('search.html')
 
+
+if 'ON_HEROKU' in os.environ:
+    print('hitting ')
+    models.initialize()
 
 if __name__ == '__main__':
     models.initialize()

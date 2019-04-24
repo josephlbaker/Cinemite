@@ -61,7 +61,7 @@ $('.top-rated').on('click', '.top-rated-button', function(e) {
     $(this).val('Added').attr('disabled', true);
     $.ajax({
       method: 'POST',
-      url: `http://localhost:8000/movie/${clickedMovieId}`,
+      url: `https://cinemite-app.herokuapp.com/movie/${clickedMovieId}`,
       success: function(res) {
         console.log(`Clicked Movie ID was successfully added to DB: ${res}`);
       },

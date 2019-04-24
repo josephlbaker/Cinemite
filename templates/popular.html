@@ -60,7 +60,7 @@ $('.popular').on('click', '.popular-button', function(e) {
     let clickedMovieId = e.target.getAttribute('data-id');
     $.ajax({
       method: 'POST',
-      url: `http://localhost:8000/movie/${clickedMovieId}`,
+      url: `https://cinemite-app.herokuapp.com/movie/${clickedMovieId}`,
       success: function(res) {
         console.log(`Clicked Movie ID was successfully added to DB: ${res}`);
       },

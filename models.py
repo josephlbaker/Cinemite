@@ -13,7 +13,7 @@ from flask_bcrypt import generate_password_hash
 
 # DATABASE = SqliteDatabase('cinemite.db')
 # DATABASE = PostgresqlDatabase('cinemite')
-DATABASE = connect(os.environ.get(‘DATABASE_URL’))
+DATABASE = connect(os.environ.get('DATABASE_URL'))
 
 
 class User(UserMixin, Model):

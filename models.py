@@ -11,8 +11,8 @@ from flask_bcrypt import check_password_hash
 from flask_login import UserMixin
 from flask_bcrypt import generate_password_hash
 
-# DATABASE = SqliteDatabase('cinemite.db')
-DATABASE = PostgresqlDatabase('cinemite')
+DATABASE = SqliteDatabase('cinemite.db')
+# DATABASE = PostgresqlDatabase('cinemite')
 # DATABASE = connect(os.environ.get('DATABASE_URL'))
 
 

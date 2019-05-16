@@ -1,22 +1,33 @@
 # Cinemite
--Browse movies by category
 
--Search for movies
+## Description
+Cinemite was created so that people can keep track of all the movies they want to see. Users can view titles sorted into popular categories or search for movies themselves. They can then view details and reviews for that movie and even leave their own reviews for others to see.
 
--Add movies to your watchlist
+## Link
+https://cinemite-app.herokuapp.com/
 
--Get more info on movies you love
+## Technologies Used
+-Python  
+-JavaScript  
+-JQuery  
+-Postgres  
+-The Movie Database (TMDB) API  
+-Bootstrap
 
--Review movies
+## Installation
+-Run `pip3 install` on the root directory.
+-Run `python3 app.py` on the root directory.
 
--See other peoples reviews
+## User Stories
+-Users can signup for an account.  
+-Users can view movies by category.  
+-Users can search for movies.  
+-Users can click on a movie to add it to their watch list.  
+-Users can click on a movie to view details about the movie.  
+-Users can view reviews relating to a movie in its 'details' page.  
+-Users can post a review in a movie's 'details' page.  
+-Users can view their profile information.  
+-Users can edit their profile including their email, username, and password.
 
-# Technologies Used
-
-https://mail.google.com/mail/u/0?ui=2&ik=54f15c5846&attid=0.1&permmsgid=msg-a:r7960161491613133279&th=169b3eb9c7a1c1ac&view=att&disp=safe&realattid=f_jto2stv90
-
-# Code we're proud of
-
-https://mail.google.com/mail/u/0?ui=2&ik=54f15c5846&attid=0.2&permmsgid=msg-a:r7960161491613133279&th=169b3eb9c7a1c1ac&view=att&disp=safe&realattid=f_jto2t3871
-
-https://mail.google.com/mail/u/0?ui=2&ik=54f15c5846&attid=0.3&permmsgid=msg-a:r7960161491613133279&th=169b3eb9c7a1c1ac&view=att&disp=safe&realattid=f_jto2tvok2
+## Future Features
+-Will give users the ability to view movie details on the categories page.
